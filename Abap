@@ -1,0 +1,9 @@
+REPORT ZHELLO_ABAP.
+
+* Declare a variable to store the message
+DATA: lv_message TYPE string VALUE 'Hello, ABAP!'.
+
+* Display the message on the screen
+WRITE: / lv_message.
+
+* End of the program
